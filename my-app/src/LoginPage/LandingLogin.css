@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-header{
+    height: 92vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg');
+    background-color:#2A0A26;
+    color: white;
+    background-color: rgba(0,0,0,0,0.10);
+    
+}
+nav{
+    display: flex;
+    justify-content: center ;
+   justify-content: space-around; 
+}
+.logo-image{
+        position: fixed;
+        left: 60px;
+        width: 150px;
+        height: 50px;
+        top: 10px;
+}
+.logo-nav{
+    margin-top: 1rem;
+}
+nav.nav-btn{
+    display: flex;
+}
+.nav-btn{
+    margin-left: 70rem;
+}
+.nav-btn .eng{
+    width: 120px;
+    background-color: black;
+    height: 40px;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.nav-btn .eng{
+    margin-inline: 22px;
+}
+.eng:hover{
+    background-color: transparent;
+}
+
+.nav-signin{
+    margin-inline: 22px;  
+}
+.nav-btn .nav-signin{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    margin-inline: 22px;
+    border: none;
+    border-radius: 5px;  
+}
+.nav-signin:hover{
+    background-color: gray;
+    border: 3px solid red;
+}
+
+.main{
+    text-align: center;
+    margin-top: 10rem;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    margin-top: 2rem;
+    font-size: 34px;
+}
+.main p{
+    margin-top: 2rem;
+    font-size: 27px;
+    color: red;
+}
+.login-input{
+    margin-top: 1rem;
+}
+.input{
+    width: 400px;
+    height: 52px;
+    border: none;
+    font-size: 25px;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    text-align: left;
+    padding: 0 20px;
+}
+.get-start-button{
+    width: 200px;
+    height: 52px;
+    background-color: red;
+    color: white;
+    font-size: 26px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.more-details{
+    margin-top: 202px;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    padding: 66px;
+    border-top: 3px solid gray;
+    
+}
+.text{
+    margin-top: 7rem;
+}
+.first img{
+    width: 50%;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 28px;
+}
+
+.bottom-buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 46px;
+
+}
+.bottom-buttons button{
+    text-align: center;
+    width: 700px;
+    height: 60px;
+    background-color: #132144;
+    color: white;
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 1rem;
+   
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
